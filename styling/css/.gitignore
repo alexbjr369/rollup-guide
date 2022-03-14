@@ -1,2 +1,4 @@
 node_modules
 .husky/_
+src/bundle.js
+dist

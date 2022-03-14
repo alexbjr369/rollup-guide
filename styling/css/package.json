@@ -1,5 +1,5 @@
 {
-  "name": "rollup-css",
+  "name": "rollup-guide-css",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "rollup:watch": "rollup --config --watch",
     "rollup:build": "rollup --config --environment NODE_ENV:production",
     "start": "npm-run-all --parallel rollup:watch server",
-    "build": "npm-run-all clean html:copy html:minify rollup:build"
+    "build": "npm-run-all clean rollup:build html:copy html:minify"
   },
   "lint-staged": {
     "**/*": "npm run prettier",
