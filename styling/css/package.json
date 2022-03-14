@@ -6,8 +6,8 @@
   "scripts": {
     "prepare": "npx husky install",
     "prettier": "prettier . --write --ignore-unknown",
-    "stylelint": "stylelint **/*.css --fix",
     "commit": "git-cz",
+    "stylelint": "stylelint **/*.css --fix",
     "clean": "shx rm -rf dist && shx mkdir dist",
     "server": "live-server src",
     "html:copy": "shx cp src/index.html dist/index.html",
