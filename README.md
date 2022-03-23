@@ -1,3 +1,3 @@
 # Rollup Guide
 
-A compilation of Rollup configurations.
+A compilation of **Rollup** configurations.

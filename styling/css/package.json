@@ -11,7 +11,7 @@
     "clean": "shx rm -rf dist && shx mkdir dist",
     "server": "live-server src",
     "html:copy": "shx cp src/index.html dist/index.html",
-    "html:minify": "npx html-minifier --input-dir dist --output-dir dist --collapse-whitespace",
+    "html:minify": "npx html-minifier --collapse-whitespace --file-ext html --input-dir dist --output-dir dist",
     "rollup:watch": "rollup --config --watch",
     "rollup:build": "rollup --config --environment NODE_ENV:production",
     "start": "npm-run-all --parallel rollup:watch server",
